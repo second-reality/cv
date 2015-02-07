@@ -1,0 +1,22 @@
+{
+	"width" : 1050,
+	"start" : "Jan 1 2011",
+	"end" : "",
+	"num_ticks" : 0,
+	"tick_format" : "%b %d, %Y",
+	"callouts" : [
+		["Diplômé ENSIMAG", "Sep 1, 2011"]
+	],
+	"eras" : [
+		["STMicro", "Feb 2011", "Sep 2011", "#00A000"],
+		["Mathworks", "Sep 2011", "Jan 2014", "#00A000"],
+		["Voyage Asie et Amérique du Sud", "Jan 2014", "Apr 2015", "#CD3F85"],
+		["Nicolas Bourbaki", "Aug 2015", "Jan 2016", "#00A000"],
+		["Kaizen", "Feb 2016", "Oct 2016", "#00A000"],
+		["Mentor", "Oct 2016", "Jan 2017", "#00A000"],
+		["INRIA", "Feb 2017", "Jan 2018", "#00A000"],
+		["Voyage Colombie", "Jan 2018", "Apr 2018", "#CD3F85"],
+		["CAP Charpente", "May 2018", "21 Jun 2019", "#0000F0"],
+		["AllegroDVT", "Oct 2019", "", "#00A000"]
+	]
+}

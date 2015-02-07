@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
+<title>Pierrick Bouvier, Ingénieur R&amp;D Linux/C/C++</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="pierrick-bouvier-ingenieur-r-d-linux-c-c">
+<h1 class="title">Pierrick Bouvier, Ingénieur R&amp;D Linux/C/C++</h1>
+
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Actuellement:</th><td class="field-body">Ingénieur R&amp;D chez AllegroDVT</td>
+</tr>
+<tr class="field"><th class="field-name">Âge:</th><td class="field-body">30 ans</td>
+</tr>
+<tr class="field"><th class="field-name">Adresse:</th><td class="field-body">Grenoble</td>
+</tr>
+<tr class="field"><th class="field-name">Téléphone:</th><td class="field-body">06 72 14 82 97</td>
+</tr>
+<tr class="field"><th class="field-name">Email:</th><td class="field-body"><a class="reference external" href="mailto:bouvier.pierrick&#64;yahoo.fr">bouvier.pierrick&#64;yahoo.fr</a></td>
+</tr>
+<tr class="field"><th class="field-name">Permis:</th><td class="field-body">B (avec véhicule)</td>
+</tr>
+<tr class="field"><th class="field-name">Site:</th><td class="field-body"><a class="reference external" href="https://second-reality.github.io">https://second-reality.github.io</a></td>
+</tr>
+<tr class="field"><th class="field-name">Github:</th><td class="field-body"><a class="reference external" href="https://github.com/second-reality">https://github.com/second-reality</a></td>
+</tr>
+<tr class="field"><th class="field-name">Mis à jour:</th><td class="field-body">03-10-2019</td>
+</tr>
+<tr class="field"><th class="field-name">CV en ligne:</th><td class="field-body"><a class="reference external" href="https://github.com/second-reality/cv/blob/master/cv.pdf">https://github.com/second-reality/cv/blob/master/cv.pdf</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="ce-que-j-aime">
+<h1>Ce que j'aime</h1>
+<p>De nouveaux challenges techniques et de solutions qui s'inscrivent dans ma façon
+de développer (Keep It Simple, Stupid), avec un outillage digne de notre temps
+(et la ligne de commande en fait partie intégrante!). Le tout à partager avec
+une équipe pour qui ces problématiques sont présentes, et qui a un certain goût
+pour la philosophie Unix, l'automatisation des outils et la qualité.</p>
+<p>J'ai également un attrait particulier pour les problématiques de bas niveau, et
+les systèmes complexes nécessitant de la performance et de la robustesse.</p>
+<p>Mon langage de prédilection est le C++ moderne.</p>
+</div>
+<div class="section" id="formation">
+<h1>Formation</h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">2008 - 2011:</th><td class="field-body">Cycle ingénieur Filière Ingénierie des Systèmes d’Information (Mention B) au
+sein de l'école <strong>GrenobleINP Ensimag</strong></td>
+</tr>
+<tr class="field"><th class="field-name">2006 - 2008:</th><td class="field-body">Licence Sciences et Technologies Informatique et Mathématiques (Mention TB) à
+l'Université Joseph Fourier de Grenoble</td>
+</tr>
+<tr class="field"><th class="field-name">2006:</th><td class="field-body">Baccalauréat Scientifique (Mention AB) au Lycée Paul Héroult à St Jean de
+Maurienne</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="competences">
+<h1>Compétences</h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Langages (maîtrisés):</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">C++(17), C(99), Bash, CUDA(7)/OpenCL(1.2), reStructuredText (documentation)</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Langages (survolés):</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">D, Python(3), Rust, asm x86</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Librairies C++:</th><td class="field-body"><p class="first">STL, Boost (algorithmes, conteneurs, Asio, Test), Qt</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Atouts:</th><td class="field-body"><p class="first">Architecture, algorithmes, système, gestion mémoire, programmation parallèle,
+performance, gpgpu, automatisation, build, intégration continue</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Systèmes:</th><td class="field-body"><p class="first">Unix (Linux - Debian/Slackware, BSD - FreeBSD), Windows (7, 10)</p>
+<p>Bonnes connaissances en administration de machines tournant sous ces systèmes.
+Je peux installer et configurer les outils cités ci-dessous.</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Outils (env):</th><td class="field-body"><p class="first">Bash, Tmux, AwesomeWM, Docker</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Outils (dev):</th><td class="field-body"><p class="first">Vim, Git, GNU toolchain, GNU coreutils, Clang, CMake</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Outils (équipe):</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Gitolite, Jenkins CI, Review Board, Redmine</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Langues:</th><td class="field-body"><p class="first">Anglais parlé et écrit couramment (TOEIC: 925/990).</p>
+<p class="last">Espagnol parlé couramment.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="experiences">
+<h1>Expériences</h1>
+<div class="section" id="resume">
+<h2>Résumé</h2>
+<img alt="timeline" src="./cv_timeline00.jpg" style="width: 100%;" />
+<img alt="timeline" src="./cv_timeline01.jpg" style="width: 100%;" />
+</div>
+<div class="section" id="details">
+<h2>Détails</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Depuis Octobre 2019:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body">Ingénieur R&amp;D chez AllegroDVT.</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Mai 2018 - Juin 2019:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>CAP Charpente</strong>, à&nbsp;la Fédération compagnonnique de Grenoble.</p>
+<p>Préparation du projet avec Pôle Emploi, réalisation de 3 stages d'immersion
+d'un mois, puis le CAP, comprenant 2 stages d'un mois.</p>
+<p class="last">Ce CAP a été l'occasion d'apprendre un métier manuel, désir que j'avais depuis
+longtemps, et d'en découvrir les avantages et les inconvénients comparé à mon
+métier d'ingénieur. C'était une expérience importante pour ma vie
+professionnelle.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Janvier - Mars 2018:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>Voyage en Colombie de 3 mois.</strong></p>
+<p class="last">Découverte d'un bien beau pays que j'avais envie d'explorer depuis longtemps.
+L'occasion de connaître plus de la culture latine, de perfectionner mon
+espagnol, et aussi, de faire un point dans ma vie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Février - Décembre 2017:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Ingénieur de recherche en CDD chez <strong>INRIA</strong> à&nbsp;Grenoble, au sein de l'équipe
+CORSE, travaillant sur des problématiques de compilation et d'optimisation de
+programmes.</p>
+<p>Extension de GDB (via Python) pour ajouter la possibilité&nbsp;de contrôler des
+plugins d'instrumentation QEMU via l'interface gdbserver.</p>
+<p>Développement d'un outil d'aide à l'analyse de performances (profiling) par
+instrumentation binaire basé sur QEMU, nommé&nbsp;program profiler (pp).</p>
+<p>Travail sur les projets QEMU et DynamoRIO (code disponible sur mon <a class="reference external" href="https://github.com/second-reality/qemu/">github</a>)</p>
+<p class="last">Utilisation du C++14, Python.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Octobre 2016 - Janvier 2017:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Ingénieur R&amp;D chez <strong>Mentor Graphics</strong> à Montbonnot.</p>
+<p>Développement d'un simulateur de circuits électroniques. J'ai mis fin à ma
+période d'essai car le poste ne correspondait pas à mes attentes.</p>
+<p class="last">Utilisation du C++14, Bash, Boost, CMake.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Février - Octobre 2016:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Ingénieur R&amp;D chez <strong>Kaizen Solutions</strong> en prestation chez <strong>Thales Electron
+Devices à&nbsp;Moirans</strong>.</p>
+<p>Développeur (seul) sur un projet de R&amp;D visant à porter une chaîne de
+traitement d'images sur GPGPU (via CUDA/OpenCL). L'enjeu est de réduire la
+consommation de l'unité de traitement. Plusieurs boards ont été évaluées
+(principalement à base de processeurs ARM et de différents GPGPU (DSP, GPU)).
+Une partie importante du travail a été&nbsp;d'optimiser le code.</p>
+<p>Écriture d'algorithmes de traitement d'images (portage depuis une version CPU
+ou de spécifications). Portage de CUDA vers OpenCL (à performance égale sur
+les plateformes offrant les deux) avec une solution technique garantissant
+l'utilisation du même code (via des macros - dans le style de Boost.Compute).
+Code de communication réseau pour la transmission d'images. Mise en place de
+chaînes de cross compilation, d'un script de build, de déploiement, de
+test et de profiling.</p>
+<p>Autoformation CUDA/OpenCL et sur les problématiques de programmation sur
+GPGPU.</p>
+<p class="last">Utilisation du C++14, Cuda(7), OpenCL(1.2), Bash, Boost (Asio), SDL, CMake.
+Travail sous Linux uniquement.  Développement x86_64, arm, et arm64.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Août 2015 - Janvier 2016:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Ingénieur au <strong>Centre de Recherche et Développement Nicolas Bourbaki à
+Montbonnot-Saint-Martin</strong>.</p>
+<p>Développeur sur le projet SpherNet, visant à offrir une solution de
+communication complète pour les objets connectés (réseau LoRa). Équipe de 6
+personnes, et projet partant d'une feuille blanche.</p>
+<p>Architecture de notre solution, choix des technologies utilisées, conseils
+techniques à l'équipe, le tout sur fond de C++ moderne (14). Développement sur
+toutes les parties du projet.</p>
+<p>Mise en place d'outils pour l'équipe (intégration continue, revue de code), de
+coding style et d'un workflow de travail. Création d'un environnement de
+développement reproductible basé sur Debian.</p>
+<p>Utilisation du C++14, Bash, Boost (Asio, Log, UnitTest), programmation
+asynchrone (Proactor Pattern). Travail sous Linux uniquement.</p>
+<p class="last">Licenciement économique suite à une liquidation totale de l'entreprise.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Janvier 2014 - Mars 2015:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>Voyage en Asie et en Amérique du Sud: Inde, Cambodge, Laos, Vietnam,
+Philippines, Singapour, Malaisie, Thaïlande, Népal, passage par la France,
+Brésil, Bolivie, Pérou et Équateur.</strong></p>
+<p class="last">Des rencontres fantastiques, un monde complètement différent, une Nature
+exceptionnelle et une vision à jamais changée sur la vie, mon pays et tout ce
+qui m'entoure.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Septembre 2011 - Janvier 2014:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>Ingénieur compilation chez MathWorks (qui produit MATLAB)
+à&nbsp;Montbonnot-Saint-Martin. Evolution de l’analyseur statique de code C/C++
+Polyspace.</strong></p>
+<p>Travail sur le front-end (compilation) et l’architecture des produits
+Polyspace (Bug Finder et Code Prover).</p>
+<p>Création d'un outil de configuration automatique basé sur de l'injection de
+code lors du build du client (via LD_PRELOAD sous Linux/MacOS et IAT patching
+sous Windows). Cela a permis le déploiement de Polyspace dans tout MathWorks
+ainsi que chez de nombreux clients. Une configuration manuelle pouvait
+nécessiter plusieurs heures et ne garantissait pas un résultat toujours fiable
+dans ce qui est compilé.</p>
+<p>Mise en place seul de Git et d'intégration continue au sein de l’équipe suite
+à une initiative personnelle. Détection automatique de nouveaux bugs (grâce à
+l'utilisation scriptée de git bisect) et productivité&nbsp;améliorée pour tous.
+Outils utilisés en complément des officiels fournis par l'entreprise.</p>
+<p class="last">Utilisation du Standard ML, C99, C++11, Bash, de Boost, de la WinAPI et de
+beaucoup de librairies internes sur du code de plusieurs centaines de milliers
+de lignes. Travail multiplateforme Windows/Linux/MacOS en 32/64 bits. Anglais
+utilisé au quotidien.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Février - Août 2011:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>Stage de fin d’études Ensimag au sein de l'équipe compilation de
+STMicroelectronics à&nbsp;Grenoble.</strong></p>
+<p>Réalisation d’un logiciel permettant d’analyser la structure de grands projets
+(Linux, LLVM, ...) au niveau binaire afin d’aider les développeurs à
+comprendre et modifier ceux-ci.</p>
+<p class="last">Utilisation du C99, XML et de la libelf et libdwarf.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Juillet - Août 2010:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first"><strong>Stage de fin de deuxième année Ensimag chez Aesculap à Échirolles.</strong></p>
+<p>Conception, implémentation et validation d’un module de reconnaissance vocale
+pour un système de chirurgie assistée par ordinateur (Orthopilot). Tests
+réalisés en conditions réelles durant deux opérations au CHU de la Tronche.</p>
+<p class="last">Utilisation du C++03, de la Microsoft SpeechAPI et du framework Qt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">2007 - 2010:</th><td class="field-body"><strong>Vendeur cycles chez Decathlon à&nbsp;La Tronche.</strong> (10h/sem période scolaire&nbsp;-
+35h/sem été). Une première expérience du commerce qui m'a appris beaucoup en
+complément de mes études.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="personnel">
+<h1>Personnel</h1>
+<ul class="simple">
+<li>Pratique régulière des sports de montagne: alpinisme, escalade, vélo de
+montagne, randonnée, ski.</li>
+<li>Lecture, cinéma</li>
+<li>Moto</li>
+<li><strong>Suivi de l’actualité informatique (hardware &amp; software), du logiciel libre
+et des nouveaux outils et langages disponibles.</strong></li>
+<li><strong>Passionné par ce que je fais, autonome, curieux et avec une grande soif
+d'apprendre.</strong></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
