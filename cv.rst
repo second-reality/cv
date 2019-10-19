@@ -77,7 +77,7 @@ Compétences
 
 :Outils (dev):
 
-  Vim, Git, GNU toolchain, GNU coreutils, Clang, CMake
+  Vim, Git, GNU toolchain, GNU coreutils, Clang, Meson
 
 :Outils (équipe):
 
