@@ -60,7 +60,7 @@ Compétences
 :Librairies C++:
   STL, Boost (algorithmes, conteneurs, Asio, Test), Qt
 
-:Atouts: 
+:Atouts:
   Architecture, algorithmes, système, gestion mémoire, programmation parallèle,
   performance, gpgpu, automatisation, build, intégration continue
 
@@ -81,7 +81,7 @@ Compétences
 
 :Outils (équipe):
 
-  Gitolite, Jenkins CI, Review Board, Redmine
+  Redmine, Gitea, Jenkins CI, Reviewboard, CGit
 
 :Langues:
 
