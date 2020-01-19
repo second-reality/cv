@@ -6,7 +6,7 @@ Pierrick Bouvier, Ingénieur R&D Linux/C/C++
 |:Âge: AGE_KK                                                                  |
 |:Adresse: Grenoble                                                            |
 |:Téléphone: 06 72 14 82 97                                                    |
-|:Email: bouvier.pierrick@yahoo.fr                                             |
+|:Email: pierrick.bouvier@posteo.net                                           |
 |:Permis: B (avec véhicule)                                                    |
 |:Site: https://second-reality.github.io                                       |
 |:Github: https://github.com/second-reality                                    |
