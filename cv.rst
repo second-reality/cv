@@ -17,11 +17,11 @@ Pierrick Bouvier, Ingénieur R&D Linux/C/C++
 Ce que j'aime
 -------------
 
-De nouveaux challenges techniques et de solutions qui s'inscrivent dans ma façon
-de développer (Keep It Simple, Stupid), avec un outillage digne de notre temps
-(et la ligne de commande en fait partie intégrante!). Le tout à partager avec
-une équipe pour qui ces problématiques sont présentes, et qui a un certain goût
-pour la philosophie Unix, l'automatisation des outils et la qualité.
+De nouveaux challenges techniques et des solutions qui s'inscrivent dans ma
+façon de développer (Keep It Simple, Stupid), avec un outillage digne de notre
+temps (et la ligne de commande en fait partie intégrante!). Le tout à partager
+avec une équipe pour qui ces problématiques sont présentes, et qui a un certain
+goût pour la philosophie Unix, l'automatisation des outils et la qualité.
 
 J'ai également un attrait particulier pour les problématiques de bas niveau, et
 les systèmes complexes nécessitant de la performance et de la robustesse.
@@ -51,11 +51,11 @@ Compétences
 
 :Langages (maîtrisés):
 
-  C++(17), C(99), Bash, CUDA(7)/OpenCL(1.2), reStructuredText (documentation)
+  D, C++(17), C(99), Bash, CUDA(7)/OpenCL(1.2), reStructuredText (documentation)
 
 :Langages (survolés):
 
-  D, Python(3), Rust, asm x86
+  Python(3), Rust, asm x86
 
 :Librairies C++:
   STL, Boost (algorithmes, conteneurs, Asio, Test), Qt
@@ -108,7 +108,22 @@ Détails
 
 :Depuis Octobre 2019:
 
-   Ingénieur R&D chez AllegroDVT.
+   Ingénieur R&D chez **AllegroDVT**.
+
+   Génération de streams de conformité sur les nouveaux standards vidéos
+   (h266/VVC).
+
+   Design et développement de nouveaux générateurs vidéos (orientés grammaire).
+
+   Contribution aux standards vidéos (implémentation de référence,
+   spécification).
+
+   Introduction, formation, développement et maintenance des outils de travail
+   de l'équipe pour permettre l'intégration continue (Utilisation de
+   git/meson/jenkins). Création d'un environnement reproductible (basé
+   sur docker) pour abstraire les machines des développeurs.
+
+   Utilisation du D, C++17, Bash. Travail sous Linux uniquement.
 
 --------------------------------------------------------------------------------
 
