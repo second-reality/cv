@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 import parsedatetime
 import svgwrite
@@ -7,8 +7,8 @@ import datetime
 import json
 import os.path
 import sys
-import tkFont
-import Tkinter
+import tkinter.font as TkFont
+import tkinter as Tkinter
 
 class Colors:
 	black = '#000000'
@@ -232,24 +232,25 @@ class Timeline:
 		if key in self.fonts:
 			font = self.fonts[key]
 		else:
-			font = tkFont.Font(family=family, size=size)
+			font = TkFont.Font(family=family, size=size)
 			self.fonts[key] = font
 		assert font is not None
 		w, h = (font.measure(text), font.metrics("linespace"))
 		return w, h
 
 def usage():
-	print 'Usage: ./make_timeline.py in.json > out.svg'
+	print('Usage: ./make_timeline.py in.json > out.svg')
 	sys.exit(-1)
 
 if __name__ == '__main__':
 	if len(sys.argv) < 2:
-		print 'missing input filename'
+		print('missing input filename')
 		usage()
 	filename = sys.argv[1]
 	if not os.path.isfile(filename):
-		print 'file %s not found' % filename
+		print('file %s not found' % filename)
 		sys.exit(-1)
 	timeline = Timeline(filename)
 	timeline.build()
-	print timeline.to_string().encode('utf-8')
+	#print(timeline.to_string().encode('utf-8'))
+	print(timeline.to_string())
