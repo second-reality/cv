@@ -81,7 +81,7 @@ Compétences
 
 :Outils (équipe):
 
-  Redmine, Gitea, Jenkins CI, Reviewboard, CGit
+  Redmine, Gitlab, Jenkins CI, CGit
 
 :Langues:
 
