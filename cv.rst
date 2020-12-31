@@ -111,7 +111,7 @@ Détails
    Ingénieur R&D chez **AllegroDVT**.
 
    Génération de streams de conformité sur les nouveaux standards vidéos
-   (h266/VVC).
+   (H.266/VVC).
 
    Design et développement de nouveaux générateurs vidéos (orientés grammaire).
 
