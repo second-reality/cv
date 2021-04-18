@@ -1,5 +1,5 @@
-Pierrick Bouvier, Ingénieur R&D Linux/C/C++
-==================================================================
+Pierrick Bouvier, Ingénieur R&D C++/D/Rust
+==========================================
 
 +------------------------------------------------------------------------------+
 |:Actuellement: Ingénieur R&D chez AllegroDVT                                  |
@@ -17,16 +17,22 @@ Pierrick Bouvier, Ingénieur R&D Linux/C/C++
 Ce que j'aime
 -------------
 
-De nouveaux challenges techniques et des solutions qui s'inscrivent dans ma
-façon de développer (Keep It Simple, Stupid), avec un outillage digne de notre
-temps (et la ligne de commande en fait partie intégrante!). Le tout à partager
-avec une équipe pour qui ces problématiques sont présentes, et qui a un certain
-goût pour la philosophie Unix, l'automatisation des outils et la qualité.
+Développer une vision d'ensemble, analyser des problèmes et créer de nouvelles
+expériences utilisateur. J'aime apporter un regard neuf sur des choses qui
+semblent figées, et les améliorer.
+
+À la recherche de nouveaux challenges techniques et des solutions qui
+s'inscrivent dans ma façon de développer (Keep It Simple, Stupid), avec un
+outillage digne de notre temps (et la ligne de commande en fait partie
+intégrante!). Le tout à partager avec une équipe pour qui ces problématiques
+sont présentes, et qui a un certain goût pour la philosophie Unix,
+l'automatisation des outils et la qualité.
 
 J'ai également un attrait particulier pour les problématiques de bas niveau, et
 les systèmes complexes nécessitant de la performance et de la robustesse.
 
-Mon langage de prédilection est le C++ moderne.
+Mon langage de prédilection est le D (après plusieurs années en C++ moderne). Je
+suis également en train d'apprendre en profondeur Rust.
 
 Formation
 ---------
@@ -41,11 +47,6 @@ Formation
   Licence Sciences et Technologies Informatique et Mathématiques (Mention TB) à
   l'Université Joseph Fourier de Grenoble
 
-:2006:
-
-  Baccalauréat Scientifique (Mention AB) au Lycée Paul Héroult à St Jean de
-  Maurienne
-
 Compétences
 -----------
 
@@ -55,7 +56,7 @@ Compétences
 
 :Langages (survolés):
 
-  Python(3), Rust, asm x86
+  Rust, Python, asm x86
 
 :Librairies C++:
   STL, Boost (algorithmes, conteneurs, Asio, Test), Qt
@@ -69,19 +70,19 @@ Compétences
   Unix (Linux - Debian/Slackware, BSD - FreeBSD), Windows (7, 10)
 
   Bonnes connaissances en administration de machines tournant sous ces systèmes.
-  Je peux installer et configurer les outils cités ci-dessous.
-
-:Outils (env):
-
-  Bash, Tmux, AwesomeWM, Docker
+  Je peux déployer tous les outils cités ci-dessous.
 
 :Outils (dev):
 
-  Vim, Git, GNU toolchain, GNU coreutils, Clang, Meson
+  Bash, Vim, Git, GNU toolchain, GNU coreutils, Clang, Meson
 
 :Outils (équipe):
 
-  Redmine, Gitlab, Jenkins CI, CGit
+  Redmine, Gitlab, Jenkins CI, CGit, Docker
+
+:Outils (infrastructure):
+
+  Proxmox (virtualisation), BorgBackup (sauvegarde), Wireguard (vpn)
 
 :Langues:
 
@@ -120,10 +121,13 @@ Détails
 
    Introduction, formation, développement et maintenance des outils de travail
    de l'équipe pour permettre l'intégration continue (Utilisation de
-   git/meson/jenkins). Création d'un environnement reproductible (basé
-   sur docker) pour abstraire les machines des développeurs.
+   git/meson/jenkins). Création d'un environnement reproductible (basé sur
+   docker) pour abstraire les machines des développeurs.
+   
+   Participation à l'IT de l'entreprise, aide au déploiement d'une
+   infrastructure de virtualisation et d'une solution de sauvegarde.
 
-   Utilisation du D, C++17, Bash. Travail sous Linux uniquement.
+   Utilisation du Rust, D, C++17, Bash. Travail sous Linux uniquement.
 
 --------------------------------------------------------------------------------
 
