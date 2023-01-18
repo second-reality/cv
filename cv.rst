@@ -90,7 +90,7 @@ C++, Python, Bash | Gitlab
 **Ingénieur Logiciel R&D chez AllegroDVT** à Meylan (2+ ans)
 
 Conception de `streams de conformité
-<https://www.allegrodvt.com/video-ip-compliance-streams/compliance-streams-validation-verification/>`_
+<https://www.allegrodvt.com/video-ip-compliance-streams/products-compliance-streams/>`_
 pour valider les implémentations de nouveaux standards vidéos.
 
 D, C++17, Bash, Rust | Docker, Gitlab, Jenkins
