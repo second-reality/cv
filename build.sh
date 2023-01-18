@@ -30,6 +30,7 @@ generate_timeline()
 generate_timeline cv_timeline
 
 # final generation
-# deps: sudo pip3 install rst2html5 rst2pdf rst2html5-tools
+# deps: sudo pip3 install rst2html5 rst2pdf rst2html5-tools htmlark
 rst2pdf $tmp_cv -s cv.style -o cv.pdf
-pandoc --self-contained -i $tmp_cv -o cv.html
+rst2html < $tmp_cv > $tmp_cv.html
+htmlark $tmp_cv.html > cv.html
