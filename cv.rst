@@ -80,10 +80,10 @@ Expériences
 
 Élargir l'écosystème Arm sous Windows (Projet `WoA <https://www.linaro.org/windows-on-arm>`_).
 
-C++, Python, Bash | Gitlab
+C, C++, Python, Bash | Gitlab
 
 - Portage de projets open source pour Windows on Arm. Contributions sur:
-  Dart/Flutter, v8, Node.js, LLVM, ...
+  Dart/Flutter, v8, Node.js, LLVM, QEMU, Ruby, ...
 - Mise en place d'une CI basée sur Gitlab (+ administration des machines)
 - Écriture d'articles de blog
 
@@ -179,6 +179,5 @@ Personnel
 ---------
 
 * Montagne: VTT, randonnée, ski, escalade
-* Moto
 * Cinéma
 * **Veille technologique (software & hardware)**
