@@ -78,6 +78,17 @@ Expériences
 
 **Ingénieur Logiciel chez Linaro** en télétravail complet (depuis mars 2022)
 
+*Depuis Février 2024:*
+
+Développeur sur QEMU (https://www.qemu.org/).
+
+C, Bash, Python, Rust | Gitlab
+
+- Amélioration des plugins d'instrumentation
+- Analyse de performances pour améliorer QEMU
+
+*Depuis Mars 2022:*
+
 Élargir l'écosystème Arm sous Windows (Projet `WoA <https://www.linaro.org/windows-on-arm>`_).
 
 C, C++, Python, Bash | Gitlab
