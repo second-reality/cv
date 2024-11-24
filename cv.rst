@@ -85,7 +85,7 @@ Développeur sur QEMU (https://www.qemu.org/).
 C, Bash, Python, Rust | Gitlab
 
 - Amélioration des plugins d'instrumentation
-- Analyse de performances pour améliorer QEMU
+- Support de l'architecture Arm
 
 *Depuis Mars 2022:*
 
