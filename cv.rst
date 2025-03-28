@@ -1,7 +1,7 @@
-Pierrick Bouvier, Ingénieur Logiciel C++
-========================================
+Pierrick Bouvier, Ingénieur Logiciel
+====================================
 
-AGE_KK ans, habite à Grenoble |
+AGE_KK ans, habite à Vancouver |
 Téléphone: 06 72 14 82 97 |
 Email: pierrick.bouvier@posteo.net
 
@@ -11,17 +11,6 @@ Github: `second-reality <https://github.com/second-reality>`_ |
 
 Actuellement: Ingénieur Logiciel chez `Linaro <https://www.linaro.org>`_ |
 Télétravail complet
-
-Ce que j'aime
--------------
-
-Développer une vision d'ensemble, et créer de nouvelles expériences utilisateur.
-J'aime apporter un regard neuf sur des choses qui semblent figées, et les
-améliorer.
-
-À la recherche d'un environnement ouvert à ce changement, et où je puisse
-apporter une philosophie et un outillage digne de notre temps. J'apprécie de
-pouvoir apprendre des autres, et leur transmettre en retour.
 
 Formation
 ---------
@@ -80,7 +69,7 @@ Expériences
 
 *Depuis Février 2024:*
 
-Développeur sur QEMU (https://www.qemu.org/).
+Développeur sur QEMU (https://www.qemu.org/, https://patchew.org/search?q=project:QEMU+from:pierrick.bouvier)
 
 C, Bash, Python, Rust | Gitlab
 
