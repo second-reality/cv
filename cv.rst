@@ -1,7 +1,7 @@
 Pierrick Bouvier, Ingénieur Logiciel
 ====================================
 
-AGE_KK ans, habite à Vancouver |
+AGE_KK ans, Vancouver |
 Téléphone: 06 72 14 82 97 |
 Email: pierrick.bouvier@posteo.net
 
