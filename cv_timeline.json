@@ -5,17 +5,17 @@
 	"num_ticks" : 0,
 	"tick_format" : "%b %d, %Y",
 	"callouts" : [
-		["Diplômé", "Sep 1, 2011"]
+		["Graduated", "Sep 1, 2011"]
 	],
 	"eras" : [
 		["STMicro", "Feb 2011", "Sep 2011", "#00A000"],
 		["Mathworks", "Sep 2011", "Jan 2014", "#00A000"],
-		["Voyage Asie/Amérique du Sud", "Jan 2014", "Jun 2015", "#CD3F85"],
+		["Travel Asia/South America", "Jan 2014", "Jun 2015", "#CD3F85"],
 		["Nicolas Bourbaki", "Aug 2015", "Mar 2016", "#00A000"],
 		["Kaizen", "Feb 2016", "Jan 2017", "#00A000"],
 		["INRIA", "Jan 2017", "Jan 2018", "#00A000"],
-		["Voyage Colombie", "Jan 2018", "Apr 2018", "#CD3F85"],
-		["CAP Charpente", "Apr 2018", "Jul 2019", "#0000F0"],
+		["Traval Colombia", "Jan 2018", "Apr 2018", "#CD3F85"],
+		["Carpenter Diploma", "Apr 2018", "Jul 2019", "#0000F0"],
 		["AllegroDVT", "Oct 2019", "Jan 2022", "#00A000"],
         ["Linaro", "Mar 2022", "", "#00A000"]
 	]

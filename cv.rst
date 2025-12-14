@@ -1,61 +1,49 @@
-Pierrick Bouvier, Ingénieur Logiciel
-====================================
+Pierrick Bouvier, Software Engineer
+===================================
 
-AGE_KK ans, Vancouver |
-Téléphone: 06 72 14 82 97 |
-Email: pierrick.bouvier@posteo.net
+AGE_KK years, Vancouver, Canada (since April 2024) |
+French citizen, Canadian PR
 
-Site: https://second-reality.github.io |
+Phone: 672-962-0381 | Email: pierrick.bouvier@posteo.net |
 Github: `second-reality <https://github.com/second-reality>`_ |
 `pbo-linaro <https://github.com/pbo-linaro>`_ (pro)
 
-Actuellement: Ingénieur Logiciel chez `Linaro <https://www.linaro.org>`_ |
-Télétravail complet
+Currently: Senior Software Engineer at `Linaro <https://www.linaro.org>`_,
+working on `QEMU <https://www.qemu.org/>`_
 
-Formation
----------
+Skills
+------
 
-:2008 - 2011:
+:Programming:
 
-  Ingénierie des Systèmes d’Information - **GrenobleINP Ensimag**
+  C++, C, `D <https://dlang.org/>`_, Bash | *Progressing*: Rust, Python
 
-:2006 - 2008:
+:C++ Libraries:
 
-  Licence Informatique et Mathématiques - Université Joseph Fourier de Grenoble
+  STL, Boost (Containers, Asio, Test), GoogleTest, Qt
 
-Compétences
------------
+:Knowledge:
 
-:Langages:
+  Architecture, Algorithms, Parallelism, Performance analysis | IT, Automating, Build, Tests, CI/CD
 
-  C++, C, `D <https://dlang.org/>`_, Python, Bash | *En progression*: Rust
+:Tools (dev):
 
-:Librairies C++:
+  Bash, Vim, Git | GNU toolchain, Clang, Meson, CMake
 
-  STL, Boost (Conteneurs, Asio, Test), GoogleTest, Qt
+:Tools (team):
 
-:Atouts:
+  Gitlab, Docker
 
-  Architecture, Algorithmes, Parallélisme | IT, Automatisation, Build, Tests, CI/CD
-
-:Outils (dev):
-
-  Bash, Vim, Git | GNU toolchain, Clang, CMake
-
-:Outils (team):
-
-  Gitlab, Jenkins, Docker
-
-:Systèmes:
+:Systems:
 
   Linux (Debian) | Windows
 
-:Langues:
+:Languages:
 
-  Anglais: parlé et écrit couramment | Espagnol: parlé couramment
+  English: spoken and written fluently | French: native | Spanish: spoken fluently
 
-Expériences
------------
+Experience
+----------
 
 .. image:: ./cv_timeline00.jpg
    :width: 100%
@@ -65,119 +53,126 @@ Expériences
    :width: 100%
    :alt: timeline
 
-**Ingénieur Logiciel chez Linaro** en télétravail complet (depuis mars 2022)
+**Senior Software Engineer at Linaro** full remote (since March 2022)
 
-*Depuis Février 2024:*
+*Since February 2024:* `QEMU <https://www.qemu.org/>`_ developer (`patches <https://patchew.org/search?q=project:QEMU+from:pierrick.bouvier>`_)
 
-Développeur sur QEMU (https://www.qemu.org/, https://patchew.org/search?q=project:QEMU+from:pierrick.bouvier)
+C, Bash, Python, Rust | Gitlab, Meson
 
-C, Bash, Python, Rust | Gitlab
+- Arm support (cpu and SMMU features)
+- Enhance instrumentation plugins
+- Reviews around code generation/Arm support/plugins
 
-- Amélioration des plugins d'instrumentation
-- Support de l'architecture Arm
-
-*Depuis Mars 2022:*
-
-Élargir l'écosystème Arm sous Windows (Projet `WoA <https://www.linaro.org/windows-on-arm>`_).
+*Before:* Port open source projects to Windows on Arm (`WoA project <https://www.linaro.org/projects/windows-on-arm>`_)
 
 C, C++, Python, Bash | Gitlab
 
-- Portage de projets open source pour Windows on Arm. Contributions sur:
-  Dart/Flutter, v8, Node.js, LLVM, QEMU, Ruby, ...
-- Mise en place d'une CI basée sur Gitlab (+ administration des machines)
-- Écriture d'articles de blog
+- Contributed to: Dart/Flutter, v8, Node.js, LLVM, QEMU, Ruby, ...
+- Setup a downstream CI based on GitLab
+- Blog posts
 
-**Ingénieur Logiciel R&D chez AllegroDVT** à Meylan (2+ ans)
+|
 
-Conception de `streams de conformité
-<https://www.allegrodvt.com/video-ip-compliance-streams/products-compliance-streams/>`_
-pour valider les implémentations de nouveaux standards vidéos.
+**Software Engineer at AllegroDVT** in Meylan (2+ years)
+
+Conception of `compliance streams
+<https://www.allegrodvt.com/video-ip-compliance-streams/compliance-streams-validation-verification/>`_
+to validate implementations of new video standards
 
 D, C++17, Bash, Rust | Docker, Gitlab, Jenkins
 
-- Lead technique de l'équipe (7 personnes)
-- Architecture et développement d'un nouveau moteur de génération vidéo
-- Développement pour les nouveaux standards (AVS3, H.266/VVC)
-- Formation en interne sur notre générateur auprès des autres équipes
-- Migration vers git (et gitlab) et formation pour l'équipe
-- Mise en place d'une CI *efficace* (< 10 min) et d'un workflow basé sur Merge requests (gitlab)
-- Automatisation complète de la chaîne de production (CD) en "un clic"!
+- Technical lead for team (6 members)
+- Architecture and development of a new video generation engine
+- Development on new standards (AVS3, H.266/VVC)
+- Internal training on our tools for other teams
+- Migrate to git (+ gitlab) and team training
+- Implementation of an *efficient* CI (< 10 min) and merge requests based workflow
+- Full automation of production chain (CD) in "one click"!
 
 |
 
-**CAP Charpente**, au Greta de Grenoble (1 an)
+**Carpenter Diploma**, at Greta in Grenoble (1+ year)
 
-L'occasion d'apprendre un métier manuel, désir que j'avais depuis longtemps, et
-d'en découvrir les avantages et inconvénients comparé à mon métier d'ingénieur.
-C'est une expérience importante dans ma vie professionnelle.
+The unique opportunity to learn a manual work, a long time desire I had, and to
+explore advantages and disadvantages compared to my engineer work. That was an
+important step in my professional life.
 
 |
 
-**Ingénieur de recherche chez INRIA** à Grenoble, au sein de l'équipe `CORSE
-<https://team.inria.fr/corse/>`_ (1 an)
+**Research Engineer at INRIA** in Grenoble in team `CORSE
+<https://team.inria.fr/corse/>`_ (1 year)
 
-Développement d'un outil d'analyse de performances par instrumentation basé sur
-QEMU (exemple ici_ pour ce programme_)
+Development of a profiling tool based on binary instrumentation using QEMU
+(example here_ for this program_)
 
-C++14, Python | code disponible sur github_
+C++14, Python | code available on github_
 
 .. _github: https://github.com/second-reality/qemu/
-.. _ici: https://second-reality.github.io/_static/projets/program_profiler/index.html
-.. _programme: https://second-reality.github.io/_static/projets/program_profiler/main.c
+.. _here: https://second-reality.github.io/_static/projets/program_profiler/index.html
+.. _program: https://second-reality.github.io/_static/projets/program_profiler/main.c
 
 |
 
-**Ingénieur R&D chez Kaizen Solutions** en prestation chez **Thales Electron
-Devices** à Moirans (1 an)
+**Software Engineer at Kaizen Solutions**, for customer **Thales Electron
+Devices** in Moirans (1 year)
 
-Portage d'une chaîne de traitement d'images sur GPU pour réduire la
-consommation.
+Port an image processing chain on GPU to reduce consumption.
 
 C++14, Cuda 7, OpenCL 1.2, Bash, Boost (Asio), CMake
 
-- Autoformation CUDA/OpenCL et programmation GPGPU.
-- Écriture d'algorithmes de traitement d'images
-- Mise en place de cross compilation (arm, arm64, mips), test, profiling
+- Self learning on CUDA/OpenCL and GPGPU programming
+- Image processing algorithms
+- Implementation of cross compilation (arm, arm64, mips), test and profiling
 
 |
 
-**Ingénieur au CRD Nicolas Bourbaki** à Montbonnot (6 mois - liquidation entreprise)
+**Engineer at Nicolas Bourbaki** in Montbonnot (6 months - bankruptcy)
 
-Lead développeur sur une solution de communication complète pour l'IoT (réseau LoRa)
+Lead developer on a communication solution for IoT (LoRa network)
 
 C++14, Bash, Boost (Asio, Log, UnitTest)
 
-Licenciement économique suite à une liquidation totale de l'entreprise, qui
-était hélas déjà en difficulté avant mon arrivée.
+Company was declared bankrupt a few months after I joined it, to the surprise
+of its employees.
 
 |
 
-**Ingénieur compilation chez MathWorks** à Montbonnot (2+ ans)
+**Compilation Engineer at MathWorks** in Montbonnot (2+ years)
 
-Travail sur l'analyseur statique de code Polyspace
+Work on Static code analyzer Polyspace
 
 C, C++11, Standard ML, Bash | Jenkins
 
-- Support de nouveaux standards (notamment C++11) | Résolution de bugs
-- Création d'un outil de configuration automatique depuis le build du client:
-  polyspace-configure
-- Mise en place de git en parallèle de CVS (fournit par l'entreprise)
-- Mise en place CI parallèle à celle de l'entreprise pour raccourcir le temps de
-  feedback. (Délai réduit: semaine -> journée)
+- Support for new standards (C++11) | Bugfixing
+- Design and implementation of an automatic configuration tool from customer
+  build: polyspace-configure
+- Introduction of git in parallel to CVS (official company SCM)
+- Implementation of a CI to shorten feedback time (from 1 week to 1 day)
 
 |
 
-**Stage de fin d’études Ensimag au sein de l'équipe compilation de
-STMicroelectronics** à Grenoble (6 mois)
+**Final internship in compilation team at STMicroelectronics** in Grenoble (6 months)
 
-Réalisation d’un logiciel permettant d’analyser la structure de grands projets
-(Linux, LLVM, ...) au niveau binaire.
+Development of a tool (SEA - Structural ELF Analyzer) to analyze structure of
+big projects (Linux, LLVM, ...) at binary level.
 
-C99, XML, libelf, libdwarf.
+C99, XML, libelf, libdwarf
 
-Personnel
+Education
 ---------
 
-* Montagne: VTT, randonnée, ski, escalade
-* Cinéma
-* **Veille technologique (software & hardware)**
+:2008 - 2011:
+
+  Information System Engineering - **GrenobleINP Ensimag**, Grenoble, France
+
+:2006 - 2008:
+
+  Mathematics and Computer Engineering - University Joseph Fourier at Grenoble, France
+
+
+Hobbies
+-------
+
+* Mountain: Climbing, Mountain biking, Backcountry Skiing, Hiking
+* Photography
+* **Technological watch (software & hardware)**
