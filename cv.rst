@@ -59,9 +59,9 @@ Experience
 
 C, Bash, Python, Rust | Gitlab, Meson
 
-- Arm support (cpu and SMMU features)
-- Enhance instrumentation plugins
+- Arm support (cpu and SMMU features) and instrumentation plugins
 - Reviews around code generation/Arm support/plugins
+- Maintainer for TCG plugins and QEMU documentation
 
 *Before:* Port open source projects to Windows on Arm (`WoA project <https://www.linaro.org/projects/windows-on-arm>`_)
 
