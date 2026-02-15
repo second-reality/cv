@@ -6,7 +6,7 @@ French citizen, Canadian PR
 
 Phone: 672-962-0381 | Email: pierrick.bouvier@posteo.net |
 Github: `second-reality <https://github.com/second-reality>`_ |
-`pbo-linaro <https://github.com/pbo-linaro>`_ (pro)
+`p-b-o <https://github.com/p-b-o>`_ (pro)
 
 Currently: Senior Software Engineer at `Linaro <https://www.linaro.org>`_,
 working on `QEMU <https://www.qemu.org/>`_
