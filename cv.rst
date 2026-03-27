@@ -175,4 +175,4 @@ Hobbies
 
 * Mountain: Climbing, Mountain biking, Backcountry Skiing, Hiking
 * Photography
-* **Technological watch (software & hardware)**
+* **Stay up-to-date with new tech (software & hardware)**
