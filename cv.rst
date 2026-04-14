@@ -1,14 +1,14 @@
 Pierrick Bouvier, Software Engineer
 ===================================
 
-AGE_KK years, Vancouver, Canada (since April 2024) |
+AGE_KK years, Vancouver, Canada (since 2024) |
 French citizen, Canadian PR
 
 Phone: 672-962-0381 | Email: pierrick.bouvier@posteo.net |
 Github: `second-reality <https://github.com/second-reality>`_ |
 `p-b-o <https://github.com/p-b-o>`_ (pro)
 
-Currently: Senior Software Engineer at `Linaro <https://www.linaro.org>`_,
+Currently: Senior Staff Engineer at `Qualcomm <https://www.qualcomm.com/>`_,
 working on `QEMU <https://www.qemu.org/>`_
 
 Skills
@@ -53,7 +53,31 @@ Experience
    :width: 100%
    :alt: timeline
 
-**Senior Software Engineer at Linaro** full remote (since March 2022)
+**Senior Staff Engineer at Qualcomm** full remote (since April 2026)
+
+|
+
+**Senior Software Engineer at Linaro** full remote (4+ years)
+
+*2+ years:* `QEMU <https://www.qemu.org/>`_ developer (`patches <https://patchew.org/search?q=project:QEMU+from:pierrick.bouvier>`_)
+
+C, Bash, Python, Rust | Gitlab, Meson
+
+- Arm support (cpu and SMMU features) and instrumentation plugins
+- Reviews around code generation/Arm support/plugins
+- Maintainer for TCG plugins and QEMU documentation
+
+*2 years:* Port open source projects to Windows on Arm (`WoA project <https://www.linaro.org/projects/windows-on-arm>`_)
+
+C, C++, Python, Bash | Gitlab
+
+- Contributed to: Dart/Flutter, v8, Node.js, LLVM, QEMU, Ruby, ...
+- Setup a downstream CI based on GitLab
+- Blog posts
+
+|
+
+**Senior Software Engineer at Linaro** full remote (4+ years)
 
 *Since February 2024:* `QEMU <https://www.qemu.org/>`_ developer (`patches <https://patchew.org/search?q=project:QEMU+from:pierrick.bouvier>`_)
 
